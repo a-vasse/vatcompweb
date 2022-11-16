@@ -1,0 +1,20 @@
+﻿<Window x:Class="VatCompDesktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VatCompDesktop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="419" Width="612">
+    <Grid Margin="0,0,10,0" Height="409" VerticalAlignment="Top">
+        <TextBox HorizontalAlignment="Left" Height="53" Margin="55,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="20"/>
+        <Label Content="Sale Amount:" HorizontalAlignment="Left" Height="42" Margin="55,90,0,0" VerticalAlignment="Top" Width="213" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Height="53" Margin="315,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="20"/>
+        <Label Content="VAT Amount:" HorizontalAlignment="Left" Height="42" Margin="315,90,0,0" VerticalAlignment="Top" Width="213" FontSize="24"/>
+        <Button Content="Compute" HorizontalAlignment="Left" Height="74" Margin="192,204,0,0" VerticalAlignment="Top" Width="196" FontSize="22" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="VAT COMPUTER 1000" VerticalAlignment="Top" Height="67" Width="525" FontSize="48" TextAlignment="Center"/>
+        <Label Content="VAT Due:" HorizontalAlignment="Left" Height="42" Margin="55,298,0,0" VerticalAlignment="Top" Width="213" FontSize="24"/>
+        <Label Content="enter input" HorizontalAlignment="Left" Height="42" Margin="315,298,0,0" VerticalAlignment="Top" Width="213" FontSize="24"/>
+
+    </Grid>
+</Window>
